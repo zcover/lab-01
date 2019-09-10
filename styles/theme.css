@@ -1,0 +1,39 @@
+@media(max-width: 480px){
+
+    #diva{
+        animation:colorchange .1s infinite;
+        line-height:75px;
+    }
+    #divb{
+        animation:colorchange .1s infinite;
+        line-height:150px;
+    }
+    #divc{
+        animation:colorchange .5s infinite;
+        line-height:125px;
+    }
+    #divd{
+        animation:colorchange 1s infinite;
+        line-height:125px;
+    }
+    #dive{
+        animation:colorchange 3s infinite;
+        line-height:250px;
+    }
+    #divf{
+        animation:colorchange 2s infinite;
+        line-height:250px;
+    }
+    #divg{
+        animation:colorchange 1.5s infinite;
+        line-height:250px;
+    }
+    #divh{
+        animation:colorchange 1s infinite;
+        line-height:250px;
+    }
+    #divi{
+        background-color:royalblue;
+        line-height:250px;
+    }
+}
