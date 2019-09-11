@@ -4,16 +4,12 @@
     text-align:center;
     align-content: center;
     color:white;
+    padding:none;
 }
 body {
     width: 480px;
 }
-div {
-    box-sizing:border-box;
-    height:125px;
-    width: 475px;
-    text-align: auto;
-}
+
 @keyframes colorchange
     {
       0%   {background-color: red;}
