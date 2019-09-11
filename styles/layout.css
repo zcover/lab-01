@@ -1,34 +1,97 @@
-#diva {
+div:nth-child(1){
     height:75px;
     width:100%;
+    background-color: black;
 }
-#divb{
+div:nth-child(2){
     width:100%;
     height:150px;
+    background-color: black;
 }
-#divc, #divd {
+div:nth-child(3){
     height: 125px;
     width:100%;
+    background-color: black;
 }
-#dive, #divg{
+div:nth-child(4){
+    height: 125px;
+    width:100%;
+    background-color: black;
+}
+div:nth-child(5){
     float:left;
     width: 50%;
     height: 250px;
     background-color:blue;
     border:none;
 }
-#divi{
-    clear:both;
-    background-color:gray;
-    width:100%;  
-}
-#divf, #divh {
+div:nth-child(6){
     float:right;
     border: none;
     background-color: yellow;
     width: 50%;
     height: 250px;
 }
+div:nth-child(7){
+    float:left;
+    width: 50%;
+    height: 250px;
+    background-color:blue;
+    border:none;
+}
+div:nth-child(8){
+    float:right;
+    border: none;
+    background-color: yellow;
+    width: 50%;
+    height: 250px;
+}
+div:nth-child(9){
+    clear:both;
+    background-color:gray;
+    width:100%;  
+}
+
+
+
+
+
+
+
+
+
+
+/* #diva {
+    height:75px;
+    width:100%;
+} */
+/* #divb{
+    width:100%;
+    height:150px;
+} */
+/* #divc, #divd {
+    height: 125px;
+    width:100%;
+} */
+/* #dive, #divg{
+    float:left;
+    width: 50%;
+    height: 250px;
+    background-color:blue;
+    border:none;
+} */
+/* #divi{
+    clear:both;
+    background-color:gray;
+    width:100%;  
+} */
+/* #divf, #divh {
+    float:right;
+    border: none;
+    background-color: yellow;
+    width: 50%;
+    height: 250px;
+} */
 
 
 
