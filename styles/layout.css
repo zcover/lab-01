@@ -1,184 +1,123 @@
-div:nth-child(1){
+body{
+    width:100%;
+}
+header{
     height:75px;
     width:100%;
-    background-color: black;
+    line-height: 75px;
 }
 div:nth-child(2){
     width:100%;
     height:150px;
-    background-color: black;
+    line-height:150px;
 }
 div:nth-child(3){
     height: 125px;
     width:100%;
-    background-color: black;
+    line-height:125px;
 }
 div:nth-child(4){
     height: 125px;
     width:100%;
-    background-color: black;
+    line-height:125px;
 }
 div:nth-child(5){
     float:left;
     width: 50%;
     height: 250px;
-    background-color:blue;
-    border:none;
+    line-height:250px;
 }
 div:nth-child(6){
     float:right;
     border: none;
-    background-color: yellow;
     width: 50%;
     height: 250px;
+    line-height:250px;
 }
 div:nth-child(7){
     float:left;
     width: 50%;
     height: 250px;
-    background-color:blue;
-    border:none;
+    line-height:250px;
 }
 div:nth-child(8){
     float:right;
-    border: none;
-    background-color: yellow;
     width: 50%;
     height: 250px;
+    line-height:250px;
 }
-div:nth-child(9){
+footer{
     clear:both;
-    background-color:gray;
-    width:100%;  
+    height:80px;
+    width:100%;
+    line-height:80px;
 }
-
-
-
-
-
-
-
-
-
-
-/* #diva {
-    height:75px;
-    width:100%;
-} */
-/* #divb{
-    width:100%;
-    height:150px;
-} */
-/* #divc, #divd {
-    height: 125px;
-    width:100%;
-} */
-/* #dive, #divg{
-    float:left;
-    width: 50%;
-    height: 250px;
-    background-color:blue;
-    border:none;
-} */
-/* #divi{
-    clear:both;
-    background-color:gray;
-    width:100%;  
-} */
-/* #divf, #divh {
-    float:right;
-    border: none;
-    background-color: yellow;
-    width: 50%;
-    height: 250px;
-} */
-
-
-
-@media (min-width: 479px) {
-    body {
+/* ================ MEDIA QUERY > 480 ===================== */
+@media only screen and (min-width: 481px){
+    body{
         width:960px;
-        margin:auto;
     }
-    #diva{
-        width:100%;
-        background-color:rgb(255, 255, 255);
+
+    header{
         height:100px;
-        line-height:100px;
-    }
-    #divb{
+        width:100%;
         background-color: rgb(150, 150, 150);
-        width:200px;
+        line-height: 100px;
+    }
+    div:nth-child(2){
+        width:200px;;
         height:600px;
         float:left;
+        background-color:rgb(112, 111, 111);
         line-height:600px;
     }
-    #divc{
-        height:200px;
-        width:380px;
-        background-color:rgb(79, 79, 79);
+    div:nth-child(3){
         float:left;
+        height: 200px;
+        width:380px;
+        background-color:rgb(67, 66, 66);
         line-height:200px;
     }
-    #divd{
-        height:200px;
-        width:380px;
-        background-color:rgb(28, 28, 28);
+    div:nth-child(4){
         float:left;
+        height: 200px;
+        width:380px;
+        background-color:rgb(92, 92, 92);
         line-height:200px;
     }
-    #dive{
+    div:nth-child(5){
+        float:left;
         height:250px;
         width:190px;
-        float:left;
-        line-height:250px;
-        background-color:rgb(164, 164, 164);
+        line-height: 250px;
+        background-color:rgb(121, 118, 118);
     }
-    #divf{
+    div:nth-child(6){
+        float:left;
         height:250px;
         width:190px;
-        float:left;
-        line-height:250px;
-        background-color:rgb(65, 65, 65);
+        line-height: 250px;
+        background-color:rgb(105, 102, 102);
     }
-    #divg{
+    div:nth-child(7){
+        float:left;
         height:250px;
         width:190px;
-        float:left;
-        line-height:250px;
-        background-color:darkgrey;
+        line-height: 250px;
+        background-color:rgb(126, 126, 126);
     }
-    #divh{
+    div:nth-child(8){
+        float:left;
         height:250px;
         width:190px;
-        float:left;
-        line-height:250px;
-        background-color:grey;
+        line-height: 250px;
+        background-color:rgb(165, 162, 162);
     }
-    #divi{
-        float:left;
-        width:760px;
+    footer{
+        display:inline-block;
         height:150px;
+        background-color:rgb(46, 46, 46);
+        width:760px;
         line-height:150px;
-        background-color:lightslategray;
     }
-    .efghi{
-        float:left;
-        width:auto;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  }
-
+}

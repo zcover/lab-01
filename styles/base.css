@@ -1,20 +1,15 @@
-/* Default view is mobile */
 * {
     margin:auto;
-    text-align:center;
+    text-align: center;
     align-content: center;
     color:white;
-    padding:none;
-}
-body {
-    width: 480px;
 }
 
 @keyframes colorchange
     {
-      0%   {background-color: red;}
-      25%  {background-color: yellow;}
+      0%   {background-color: purple;}
+      25%  {background-color: green;}
       50%  {background-color: blue;}
-      75%  {background-color: black;}
+      75%  {background-color: yellow;}
       100% {background-color: green;}
     }
