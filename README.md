@@ -8,3 +8,13 @@ This site serves as a demo, and learning "playground" to experiment with creatin
 
 ## lab-05b
 Use either Flexbox OR Grid formatting to recreate your lab-01 responsive site. Your site at this point should show a specific display for a mobile view, and a desktop view. After reformatting using your desired responsive style (flex/grid), add a third view to your site, that will be seen when using a tablet view (768x1024 or 1024x768, try both as a stretch-goal!)
+
+- ### Feature #1: Recreate lab01 using flexbox/grid
+    - Estimated time: 1hr
+    - Starting Time: 1100
+    - Time of Completion:
+    - Actual Time spent:
+- Review of Feature: <br>
+    [enter response here]
+
+- ### Feature #2:
